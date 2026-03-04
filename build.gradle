@@ -7,6 +7,7 @@ buildscript {
             url('/opt/android-plugin')
         }
         google()
+        mavenCentral()
         jcenter()
         maven { 
             url('https://jitpack.io')
